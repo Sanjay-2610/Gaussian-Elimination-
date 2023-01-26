@@ -16,11 +16,10 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 6. Printing the values of the unknown variable
 ## Program:
 ```py
-/*
-Program to find the solution of a matrix using Gaussian Elimination.
-Developed by: Sanjay Ragavendar M K
-RegisterNumber: 22009286
-*/
+#Program to find the solution of a matrix using Gaussian Elimination.
+#Developed by: Sanjay Ragavendar M K
+#RegisterNumber: 22009286
+
 import numpy as np
 n=int(input())
 a=np.zeros((n,n+1))
